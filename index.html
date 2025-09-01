@@ -19,7 +19,7 @@
 			<!-- Main -->
 			<div id="main">
 				<div class="inner">
-					<div id="header-container"></div>
+					{% include_relative header.html %}
 
 					<!-- Banner -->
 					<section id="banner">
@@ -83,7 +83,7 @@
 			</div>
 
 			<!-- Sidebar -->
-			<div id="sidebar" class="sidebar"></div>
+			<div id="sidebar" class="sidebar">{% include_relative footer.html %}</div>
 			</div>
 
 		<!-- Scripts -->
@@ -91,44 +91,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script>
-				async function loadHTML(id, file) {
-					const response = await fetch(file);
-					if (!response.ok) {
-						console.error(`Failed to load ${file}`);
-						return;
-					}
-					document.getElementById(id).innerHTML = await response.text();
-				}
-
-				async function init() {
-					// Load header and sidebar
-					await loadHTML("header-container", "header.html");
-					await loadHTML("sidebar", "footer.html");
-
-					// Load main.js AFTER header/sidebar are in the DOM
-					const script = document.createElement("script");
-					script.src = "assets/js/main.js";
-					script.onload = () => {
-						// Wait a tick for layout to settle
-						requestAnimationFrame(() => {
-							// Rerun scroll event triggers for sidebar behavior
-							if (typeof window.scrollEvents !== "undefined") {
-								for (let i in window.scrollEvents) {
-									try {
-										window.scrollEvents[i]();
-									} catch (e) {
-										console.error("Scroll event failed:", e);
-									}
-								}
-							}
-						});
-					};
-					document.body.appendChild(script);
-				}
-
-				document.addEventListener("DOMContentLoaded", init);
-			</script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
