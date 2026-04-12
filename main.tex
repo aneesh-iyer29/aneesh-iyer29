@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{comment}
 \usepackage{fontawesome}
 \input{glyphtounicode}
 
@@ -156,7 +157,7 @@
     \resumeItemListEnd
 
     \resumeSubheading
-      {Propulsive Landers}{Jan. 2026 -- Present}
+      {\href{https://github.com/Avionics-Propulsion-Landers-GT/MonopropUAV}{\underline{Propulsive Landers}}}{Jan. 2026 -- Present}
       {Guidance, Navigation, and Control | Python, Rust}{Atlanta, GA}
       \resumeItemListStart
         \resumeItem{Developed control systems simulations for autonomous flight, implementing servo command scheduling to simulate time-dependent actuation in flight}
@@ -200,25 +201,20 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Mathworks Math Modeling (M3) Champion} $|$ \emph{Python, R}}{Mar. 2025 -- May 2025}
+          {\textbf{\href{https://doi.org/10.1137/25S1777554}{\underline{Mathworks Math Modeling (M3) Champion}}} $|$ \emph{Python, R}}{Mar. 2025 -- May 2025}
           \resumeItemListStart
             \resumeItem{Developed mathematical models to predict energy demand in Memphis in 2025 and 2045; validated models with real-world data using Python and SciPy}
             \resumeItem{Built multiple linear regression models with backward variable selection to quantify vulnerability, guiding targeted resource allocation based on statistical and socioeconomic indicators}
             \resumeItem{Presented findings live to Ph.D mathematicians; Published in the SIAM Undergraduate Research Online journal}
-            \resumeItem{Placed 1st out of 794 teams internationally in the US and UK; Awarded \$20,000 grand prize}
-            \resumeItem{Shao, Raymond, et al. “Hot Button Issue: Staying Cool as the World Heats Up.” \textit{SIAM Undergraduate Research Online}, vol. 18, 2025. Crossref, doi:10.1137/25s1777554.}
+            \resumeItem{Placed 1st out of 794 teams internationally in the US and UK; Awarded \$20,000 grand prize; Published in SIURO}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{ScioVirtual Codebusters} $|$ \emph{HTML, CSS, Javascript}}{July 2024, 2025}
+    \resumeProjectHeading
+    {\textbf{\href{https://drive.google.com/file/d/1meII5Gq1D0iQ3-tIvZrWbp7ePnKU51yc/view?usp=sharing}{\underline{Subtask Evaluation Framework}}} $|$ \emph{Python}}{Jan. 2026 -- Present}
           \resumeItemListStart
-            \resumeItem{Designed and developed an interactive Codebusters practice embed to solve questions for ScioVirtual.}
-            \resumeItem{Created a dynamic UI allowing 70+ students to solve problems in real time and receive instant feedback}
-            \resumeItem{Enhanced student engagement and hands-on learning experience, contributing to higher retention}
-            \resumeItem{Recognized with “Instructor of the Year” award and the highest-rated class on the platform}
+            \resumeItem{Designed and implemented a modular Python evaluation framework extending $\tau$-bench, supporting configurable weighted scoring, penalty systems, and hybrid LLM/deterministic grading across multi-step agent workflows}
+            \resumeItem{Evaluated frontier model performance (claude-sonnet-4-5) across long-horizon tasks, producing granular subtask-level diagnostics that surfaced failure modes invisible to traditional binary pass/fail metrics}
           \resumeItemListEnd
-    \resumeSubHeadingListEnd
-    
-
+      
 %
 
 
