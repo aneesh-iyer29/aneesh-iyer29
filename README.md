@@ -50,12 +50,6 @@ Currently building infrastructure for frontier AI training data at [Transpira La
 
 **AI/ML:** RL environments, reward modeling, LLM evaluation and benchmarking, RLVR/GRPO, NVIDIA NeMo Gym
 
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=aneesh-iyer29&show_icons=true&theme=transparent)
-
-</div>
-
 ## Resume
 
 The latest version of my resume lives in this repo: [Aneesh_Iyer_Resume.pdf](./Aneesh_Iyer_Resume.pdf) (source: [main.tex](./main.tex)).
