@@ -5,7 +5,7 @@
 **Software engineer working on RL environments, evals, and benchmarks for frontier LLMs**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aneesh--iyer-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aneesh-iyer)
-[![Website](https://img.shields.io/badge/Website-https://www.aneesh-iyer.com/-181717?logo=github&logoColor=white)](https://www.aneesh-iyer.com/)
+[![Website](https://img.shields.io/badge/Website-aneesh--iyer.com-181717?logo=googlechrome&logoColor=white)](https://www.aneesh-iyer.com/)
 [![Email](https://img.shields.io/badge/Email-aiyer%40gatech.edu-EA4335?logo=gmail&logoColor=white)](mailto:aiyer@gatech.edu)
 [![Resume](https://img.shields.io/badge/Resume-PDF-2088FF)](./Aneesh_Iyer_Resume.pdf)
 
