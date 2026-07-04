@@ -5,7 +5,7 @@
 **Software engineer working on RL environments, evals, and benchmarks for frontier LLMs**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aneesh--iyer-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aneesh-iyer)
-[![Website](https://img.shields.io/badge/Website-aneesh--iyer29.github.io-181717?logo=github&logoColor=white)](https://aneesh-iyer29.github.io/)
+[![Website](https://img.shields.io/badge/Website-https://www.aneesh-iyer.com/-181717?logo=github&logoColor=white)](https://www.aneesh-iyer.com/)
 [![Email](https://img.shields.io/badge/Email-aiyer%40gatech.edu-EA4335?logo=gmail&logoColor=white)](mailto:aiyer@gatech.edu)
 [![Resume](https://img.shields.io/badge/Resume-PDF-2088FF)](./Aneesh_Iyer_Resume.pdf)
 
@@ -30,7 +30,7 @@ Currently building infrastructure for frontier AI training data at [Transpira La
 | [Build](https://github.com/Transpira-Labs/build) | Open-source "Scratch for RL environments" that compiles plain-language block trees into runnable RL environments |
 | [MonopropUAV](https://github.com/Propulsive-Landers-GT/MonopropUAV) | Guidance, navigation, and control for a monopropellant UAV |
 | [ciphers](https://github.com/toebes/ciphers) | Open-source maintainer of the Codebusters platform used by 1,000+ Science Olympiad coaches and volunteers |
-| [aneesh-iyer29.github.io](https://aneesh-iyer29.github.io/) | Personal site with live demos of my projects |
+| [aneesh-iyer.com](https://aneesh-iyer.com/) | Personal site with live demos of my projects |
 
 ## Languages and tools
 
