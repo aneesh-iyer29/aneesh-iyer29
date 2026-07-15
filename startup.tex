@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex (startup-focused variant of main.tex)
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{comment}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\renewcommand{\labelitemi}{--} % Changes the first-level bullet to a dash
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item[--]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Aneesh Iyer} \\ \vspace{1pt}
+    \small \faPhone\ (513) 399-1607 $|$ \href{mailto:aiyer@gatech.edu}{\underline{\faEnvelope\ aiyer@gatech.edu}} $|$
+    \href{https://linkedin.com/in/aneesh-iyer}{\underline{\faLinkedin\ in/aneesh-iyer}} $|$
+    \href{https://github.com/aneesh-iyer29}{\underline{\faGithub\ github.com/aneesh-iyer29}} $|$ \href{https://aneesh-iyer.com/}{\underline{\faGlobe\ aneesh-iyer.com}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{May 2028}
+      {B.S. in Computer Engineering --- Cybersecurity \& Systems/Architecture --- GPA: 4.0}{Atlanta, GA}
+      \begin{itemize}[label=--]
+          \item Relevant Coursework: Data Structures \& Algorithms, Hardware/Software Systems Programming \\In Progress: Computer Architecture, Cryptographic Hardware for Embedded Systems
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Transpira Labs (Backed by Christopher Klaus)}{May 2026 -- Present}
+      {Software Engineer}{Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Enabled 40+ expert contractors to produce frontier AI training data by building full-stack platform services.}
+        \resumeItem{Made LLM agent evals reproducible by packaging 288 supply-chain benchmark tasks with deterministic rewards.}
+        \resumeItem{Revealed under 1\% lift from instruction by benchmarking LLM agents on their ability to RL-train agents.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Nuntius (YC S'25)}{Sep. 2025 -- Apr. 2026}
+      {Software Engineer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Delivered a \$50K client project evaluating LLM agent tool-use limitations, directing a team of 8 engineers.}
+        \resumeItem{Produced 300+ adversarial tasks across 5+ RL environments with automated graders and custom rewards.}
+        \resumeItem{Moved evals beyond binary pass/fail by designing trajectory-aware evaluators that credit intermediate steps.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://github.com/Avionics-Propulsion-Landers-GT/MonopropUAV}{\underline{GT Propulsive Landers}}}{Jan. 2026 -- Present}
+      {Guidance, Navigation, and Control Team Member | Python, Rust}{Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Achieved 0.63\% average deviation from simulated ground truth via 3 distinct EKFs fusing IMU, GPS, and LIDAR.}
+        \resumeItem{Automated PID tuning for a 1.8 kN engine simulation via 8 step-response metrics logged to CSV each run.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Build: Scratch for RL Environments} $|$ \emph{Python, TypeScript, HUD SDK} $|$ \href{https://build.transpiralabs.com}{\underline{Live: build.transpiralabs.com}}}{Jun. 2026}
+          \resumeItemListStart
+            \resumeItem{Won 1st of 70 (\$50K+ in prizes/credits) at the HUD $\times$ Y Combinator Frontier/RSI RL Environments Hackathon.}
+            \resumeItem{Enabled no-code RL: an open-source Scratch-style platform compiling block trees into RL environments.}
+            \resumeItem{Let anyone evaluate models in custom simulations and launch RL training runs without writing any code.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://doi.org/10.1137/25S1777554}{\underline{Mathworks Math Modeling (M3) Champion}}} $|$ \emph{Python, R}}{Mar. 2025 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Won 1st of 794 teams (\$20,000 grand prize) modeling Memphis heat resilience and electricity demand.}
+            \resumeItem{Quantified vulnerability across 27 zip codes by reducing variables to 4 features via backward selection.}
+            \resumeItem{Co-authored a publication in SIAM Undergraduate Research Online; presented findings to Ph.D. professors.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP & VOLUNTEERING-----------
+\section{Volunteering}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Science Olympiad National Team} $|$ \emph{TypeScript}}{Aug. 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{\href{https://github.com/toebes/ciphers}{\underline{Open-source maintainer}} for the Codebusters \href{https://toebes.com/codebusters/}{\underline{platform}} used by 1,000+ coaches; ran exams for 2,000+ students.}
+          \resumeItemListEnd
+      \resumeProjectHeading{\textbf{ScioVirtual Foundation Volunteer} $|$ \emph{HTML, CSS, JS}}{Summers 2024 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Taught 100+ hours of STEM to kids 11-14; built a cryptography platform for 70+; 2025 Instructor of the Year.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/ML}{: RLVR/GRPO, RL Environment Creation, LLM Evaluation \& Benchmarking, HUD SDK, NVIDIA NeMo Gym} \\
+     \textbf{Languages}{: Python, Java, Rust, C, TypeScript/JavaScript, SQL, R, MATLAB, HTML/CSS, Bash, LaTeX} \\
+     \textbf{Tools \& Systems}{: Docker, Git, Pydantic, Arduino, RISC-V, Control Systems, Sensor Fusion, Embedded Systems} \\
+     \textbf{Interests}{: Machine Learning, Cryptography, Cybersecurity, Aerospace Systems, Optics, Spanish (Intermediate)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
