@@ -15,7 +15,7 @@
 
 Computer Engineering student at Georgia Tech (Cybersecurity & Systems/Architecture, 4.0 GPA), graduating May 2028.
 
-Currently building infrastructure for frontier AI training data at [Transpira Labs](https://github.com/Transpira-Labs). Previously at Nuntius (YC S25), where I built RL environments and 300+ adversarial tasks that exposed frontier model weaknesses.
+Currently building infrastructure for frontier AI training data and deployments into supply chain at [Transpira Labs](https://github.com/Transpira-Labs). Previously at Nuntius (YC S25), I led teams that built RL environments and hundreds of adversarial tasks that exposed frontier model weaknesses.
 
 ## Highlights
 
