@@ -9,6 +9,7 @@ Master reference of all resume content, current as of **August 2026**. Every bul
 | `main.tex` | General resume | Experience before Projects; trailing periods on bullets |
 | `startup.tex` | Startup applications | Projects before Experience (leads with hackathon win); no trailing periods |
 | `nvidia.tex` | NVIDIA SWE internship | "Expected Graduation" label (required by JD); skills ordered for JD keywords (Python/C/Java, Linux/Git/Docker, NeMo Gym first); validation/benchmarking bullets prioritized |
+| `zipline.tex` | Zipline SWE internship (consumer apps) | Product/full-stack angle: GTM platform + supply-chain/3PL bullets prioritized (logistics fit); Languages lead with Python, TypeScript/JavaScript (JD stack: React Native, Python, Go); Interests lead with Aerospace Systems (drone mission fit) |
 
 ## Contact / Header
 
