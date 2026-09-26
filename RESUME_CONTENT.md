@@ -57,7 +57,7 @@ Bullet pool:
 ### GT Propulsive Landers — Vice Lead, Guidance, Navigation, and Controls Subteam
 
 Atlanta, GA · Jan. 2026 – Present
-Repo: github.com/Avionics-Propulsion-Landers-GT/MonopropUAV
+Team org: github.com/Propulsive-Landers-GT (the old MonopropUAV monolith is archived in GTPL-Testing; the Rust ES-EKF lives in Propulsive-Landers-GT/navigation under AttitudeEstimation/rust-ekf)
 Former title (pre-promotion): "Guidance, Navigation, and Control Team Member | Python, Rust"
 
 Bullet pool:

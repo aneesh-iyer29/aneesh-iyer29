@@ -1,0 +1,45 @@
+name: Build resume PDF
+
+# Overleaf pushes only the LaTeX source. This compiles main.tex and commits the
+# result as Aneesh_Iyer_Resume.pdf, the file the README links to and
+# aneesh-iyer.com/resume.pdf serves.
+on:
+  push:
+    branches: [main]
+    paths:
+      - main.tex
+      - .github/workflows/resume-pdf.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resume-pdf
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compile main.tex
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+
+      - name: Commit the PDF if it changed
+        run: |
+          mv main.pdf Aneesh_Iyer_Resume.pdf
+          if git diff --quiet -- Aneesh_Iyer_Resume.pdf; then
+            echo "PDF unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Aneesh_Iyer_Resume.pdf
+          git commit -m "Build resume PDF from ${GITHUB_SHA::7}"
+          # Overleaf may have pushed again while this ran.
+          git pull --rebase origin main
+          git push origin HEAD:main
