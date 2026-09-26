@@ -114,15 +114,27 @@ Modeled Memphis heat resilience and electricity demand, quantified heat vulnerab
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://aneesh-iyer29.github.io/local-leaf/"><img src="assets/projects/local-leaf.webp" alt="Figure: local-leaf editing a LaTeX paper, with the file tree and Git panel, the source, the compiled PDF, and a terminal running leaf compile"></a>
+<h3>🍃 local-leaf</h3>
+<b>Overleaf, offline:</b> your own TeX, no compile timeout, and AI agents in the loop.<br><br>
+An open-source LaTeX editor that works like Overleaf but runs on your Mac and compiles with MacTeX: live PDF with SyncTeX, Overleaf import, Git, a built-in terminal, and a <code>leaf</code> CLI that lets Claude Code edit and compile your paper while you watch.<br><br>
+<a href="https://github.com/aneesh-iyer29/local-leaf">Code</a> · <a href="https://aneesh-iyer29.github.io/local-leaf/">Site</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://aneesh-iyer29.github.io/claude-session-manager/"><img src="assets/projects/session-manager.webp" alt="Figure: Session Manager's dashboard with the active Claude account at 79% headroom, two standby accounts, the Codex quota, and the auto-swap settings"></a>
+<h3>🔄 Session Manager for Claude Code</h3>
+<b>Switches Claude Code accounts</b> before a 5-hour or weekly usage limit hits.<br><br>
+A macOS menu bar app that tracks the usage limits of every Claude Pro and Max account you have, moves Claude Code to the one with the most headroom, and texts you over iMessage when a session is waiting on you.<br><br>
+<a href="https://github.com/aneesh-iyer29/claude-session-manager">Code</a> · <a href="https://aneesh-iyer29.github.io/claude-session-manager/">Site</a> · <a href="https://github.com/aneesh-iyer29/claude-session-manager/releases/latest">Download</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://www.aneesh-iyer.com/"><img src="assets/projects/site.webp" alt="Screenshot of aneesh-iyer.com: a macOS-style desktop with widgets, a Safari window, and a Notes window"></a>
 </td>
 <td width="50%" valign="top">
 🖥️ <b><a href="https://www.aneesh-iyer.com/">aneesh-iyer.com</a></b><br>
-My site is a macOS-style desktop in the browser, and an iPhone Home Screen on phones: Finder, Terminal, Photos, Spotlight, and an Ask app that answers questions and builds small web apps.<br><br>
-🍃 <b><a href="https://github.com/aneesh-iyer29/local-leaf">local-leaf</a></b><br>
-An Overleaf-style LaTeX editor in the browser that compiles with the TeX on your Mac, with SyncTeX, Git, and a built-in terminal.<br><br>
-🔄 <b><a href="https://github.com/aneesh-iyer29/session-manager">Session Manager</a></b><br>
-A macOS menu bar app that watches the usage limits of several Claude Code accounts and swaps logins before one throttles.
+My site is a macOS-style desktop in the browser, and an iPhone Home Screen on phones: Finder, Terminal, Photos, Spotlight, and an Ask app that answers questions and builds small web apps.
 </td>
 </tr>
 </table>
