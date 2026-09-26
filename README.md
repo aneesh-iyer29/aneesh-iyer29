@@ -25,34 +25,49 @@ I'm a Computer Engineering student at Georgia Tech (Cybersecurity and Systems/Ar
 <table>
 <tr>
 <td width="76" align="center"><img src="assets/orgs/transpira.png" width="52" alt="Transpira Labs logo"></td>
-<td>
-<b><a href="https://www.transpiralabs.com/">Transpira Labs</a></b> · Software Engineer<br>
-<sub>May – Aug 2026 · Atlanta, GA</sub><br>
+<td valign="top">
+<b><a href="https://www.transpiralabs.com/">Transpira Labs</a></b><br>
+<i>Software Engineer</i><br>
 Built the task-authoring platform that 40+ subject-matter experts used to produce frontier GDPval training data, a go-to-market platform that landed 5 pilot partners, and a sandbox replicating a 3PL's full operational stack for end-to-end testing.
+</td>
+<td align="right" valign="top">
+May&nbsp;&#8288;–&#8288;&nbsp;Aug&nbsp;2026<br>
+<i>Atlanta,&nbsp;GA</i>
 </td>
 </tr>
 <tr>
 <td width="76" align="center"><img src="assets/orgs/nuntius.png" width="52" alt="Nuntius logo"></td>
-<td>
-<b>Nuntius (YC S25)</b> · Software Engineer<br>
-<sub>Sep 2025 – Apr 2026 · Remote</sub><br>
+<td valign="top">
+<b>Nuntius (YC S25)</b><br>
+<i>Software Engineer</i><br>
 Directed a team of 8 engineers on a $50K project evaluating conversational tool-use LLM agents, and produced 300+ adversarial tasks across 5+ RL environments with automated graders and custom rewards.
+</td>
+<td align="right" valign="top">
+Sep&nbsp;2025&nbsp;&#8288;–&#8288;&nbsp;Apr&nbsp;2026<br>
+<i>Remote</i>
 </td>
 </tr>
 <tr>
 <td width="76" align="center"><img src="assets/orgs/gtpl.png" width="52" alt="GT Propulsive Landers logo"></td>
-<td>
-<b><a href="https://github.com/Propulsive-Landers-GT">GT Propulsive Landers</a></b> · Vice Lead, Guidance, Navigation, and Controls<br>
-<sub>Jan 2026 – present · Atlanta, GA</sub><br>
+<td valign="top">
+<b><a href="https://github.com/Propulsive-Landers-GT">GT Propulsive Landers</a></b><br>
+<i>Vice Lead, Guidance, Navigation, and Controls</i><br>
 Built a 16-state error-state EKF in Rust that fuses IMU, GPS, and magnetometer data, and automated PID tuning for a 1.8 kN engine simulation.
+</td>
+<td align="right" valign="top">
+Jan&nbsp;2026&nbsp;&#8288;–&#8288;&nbsp;present<br>
+<i>Atlanta,&nbsp;GA</i>
 </td>
 </tr>
 <tr>
 <td width="76" align="center"><img src="assets/orgs/scioly.png" width="52" alt="Science Olympiad logo"></td>
-<td>
-<b>Science Olympiad National Team</b> · Open-source maintainer and volunteer<br>
-<sub>Aug 2025 – present</sub><br>
+<td valign="top">
+<b>Science Olympiad National Team</b><br>
+<i>Open-source maintainer and volunteer</i><br>
 Maintain <a href="https://github.com/toebes/ciphers">Codebusters</a>, the cipher platform used by 1,000+ coaches and volunteers nationwide, and help run exams for 2,000+ students at state and national tournaments.
+</td>
+<td align="right" valign="top">
+Aug&nbsp;2025&nbsp;&#8288;–&#8288;&nbsp;present
 </td>
 </tr>
 </table>
