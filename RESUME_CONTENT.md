@@ -37,7 +37,7 @@ Atlanta, GA · May 2026 – Aug. 2026 (role has ended; do not use "Present")
 
 Bullet pool (all true; pick per audience):
 
-- Maximized output of 40+ SMEs producing frontier AI training data by building a task authoring platform. *(current headline bullet everywhere)*
+- Maximized output of 40+ SMEs producing frontier GDPval training data by building a task authoring platform. *(current headline bullet in main.tex since Sep. 26, 2026; the tailored variants still say "frontier AI training data")*
 - Landed 5 pilot partners by building a custom GTM platform for outreach, lead generation, and analytics. *(business/startup audiences; dropped from nvidia.tex)*
 - Built a sandbox replicating a 3PL's full operational stack, enabling end-to-end testing before deployment. *(testing/validation angle)*
 - Packaged 288 supply-chain benchmark tasks into a reproducible validation suite with deterministic rewards. *(MLOps/validation audiences; alt phrasing: "reproducible environment with deterministic rewards")*
@@ -50,7 +50,7 @@ Remote · Sep. 2025 – Apr. 2026
 
 Bullet pool:
 
-- Delivered a $50K client project evaluating LLM agent tool-use limitations, directing a team of 8 engineers. *(alt phrasing: "Directed a team of 8 engineers to deliver a $50K client project...")*
+- Delivered a $50K project evaluating conversational tool-use LLM agents, directing a team of 8 engineers. *(main.tex since Sep. 26, 2026; older phrasing in the tailored variants: "Delivered a $50K client project evaluating LLM agent tool-use limitations..."; alt: "Directed a team of 8 engineers to deliver a $50K client project...")*
 - Produced 300+ adversarial tasks across 5+ RL environments with automated graders and custom rewards. *(alt phrasing: "Built 5+ RL environments with automated graders and custom rewards; created 300+ adversarial tasks")*
 - Designed trajectory-aware validation frameworks crediting intermediate steps to debug agent failure modes. *(MLOps/validation audiences; alt phrasings: "Designed trajectory-aware evaluators assigning partial credit based on intermediate steps instead of binary results", "Moved evals beyond binary pass/fail by designing trajectory-aware evaluators that credit intermediate steps")*
 
