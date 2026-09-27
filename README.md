@@ -118,14 +118,14 @@ Modeled Memphis heat resilience and electricity demand, quantified heat vulnerab
 <h3>🍃 local-leaf</h3>
 <b>Overleaf, offline:</b> your own TeX, no compile timeout, and AI agents in the loop.<br><br>
 An open-source LaTeX editor that works like Overleaf but runs on your Mac and compiles with MacTeX: live PDF with SyncTeX, Overleaf import, Git, a built-in terminal, and a <code>leaf</code> CLI that lets Claude Code edit and compile your paper while you watch.<br><br>
-<a href="https://github.com/aneesh-iyer29/local-leaf">Code</a> · <a href="https://aneesh-iyer29.github.io/local-leaf/">Site</a>
+<a href="https://github.com/aneesh-iyer29/local-leaf">Code</a> · <a href="https://aneesh-iyer29.github.io/local-leaf/">Site</a> · <a href="https://aneesh-iyer29.github.io/local-leaf/#demo">▶ Demo</a>
 </td>
 <td width="50%" valign="top">
 <a href="https://aneesh-iyer29.github.io/claude-session-manager/"><img src="assets/projects/session-manager.webp" alt="Figure: Session Manager's dashboard with the active Claude account at 79% headroom, two standby accounts, the Codex quota, and the auto-swap settings"></a>
 <h3>🔄 Session Manager for Claude Code</h3>
 <b>Switches Claude Code accounts</b> before a 5-hour or weekly usage limit hits.<br><br>
 A macOS menu bar app that tracks the usage limits of every Claude Pro and Max account you have, moves Claude Code to the one with the most headroom, and texts you over iMessage when a session is waiting on you.<br><br>
-<a href="https://github.com/aneesh-iyer29/claude-session-manager">Code</a> · <a href="https://aneesh-iyer29.github.io/claude-session-manager/">Site</a> · <a href="https://github.com/aneesh-iyer29/claude-session-manager/releases/latest">Download</a>
+<a href="https://github.com/aneesh-iyer29/claude-session-manager">Code</a> · <a href="https://aneesh-iyer29.github.io/claude-session-manager/">Site</a> · <a href="https://github.com/aneesh-iyer29/claude-session-manager/releases/latest">Download</a> · <a href="https://aneesh-iyer29.github.io/claude-session-manager/#demo">▶ Demo</a>
 </td>
 </tr>
 <tr>
