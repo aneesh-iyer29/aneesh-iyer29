@@ -2,7 +2,7 @@ name: Build resume PDF
 
 # Overleaf pushes only the LaTeX source. This compiles main.tex and commits the
 # result as Aneesh_Iyer_Resume.pdf, the file the README links to and
-# aneesh-iyer.com/resume.pdf serves.
+# aneeshiyer.com/resume.pdf serves.
 on:
   push:
     branches: [main]

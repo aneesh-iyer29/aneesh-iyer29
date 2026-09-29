@@ -18,7 +18,7 @@ Master reference of all resume content, current as of **August 2026**. Every bul
 - aiyer@gatech.edu
 - linkedin.com/in/aneesh-iyer
 - github.com/aneesh-iyer29
-- aneesh-iyer.com
+- aneeshiyer.com
 
 ## Education
 
